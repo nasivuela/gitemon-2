@@ -35,3 +35,4 @@ The application gets its data from the GitHub API. It can do so via unauthentica
 This is done using a GitHub app, configuring using the `GITHUB_APP_CLIENT_ID`, `REACT_APP_GITHUB_APP_CLIENT_ID`,  and`GITHUB_APP_CLIENT_SECRET` environment variables (`REACT_APP_GITHUB_APP_CLIENT_ID` is the same as `GITHUB_APP_CLIENT_ID`, but it's accessible in the React application).
 
 To run the application locally, you can place these variables in a `.env` file — but make sure not to commit your secrets to a public repository! Alternatively, you can configure the variables on Netlify and run the application using [Netlify Dev](https://www.netlify.com/products/dev/), which will inject the variables for you automatically.
+.
